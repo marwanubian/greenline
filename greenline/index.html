@@ -1,0 +1,182 @@
+<html>
+<head>
+<meta charset="utf-8" >
+<meta name="description" content="Greenline company is a tourism company  ">
+<title> Greenline     </title>
+<link rel="stylesheet"href="css/style.css">
+<link rel="stylesheet"href="css/font-awesome.min.css">
+<link rel="stylesheet"href="css/normalize.css">   
+    <script type="text/javascript">
+                           var marwa =["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg"];
+
+           var i=0;
+             function init()
+            { document.getElementById("myimg1").src=marwa[i];
+                i++;
+                if(i>=7)
+                {i=0;}
+                         setTimeout(init,3000); 
+            }
+        
+        function init1()
+            { document.getElementById("myimg1").src=marwa[i];
+                i++;
+                if(i>=7)
+                {i=0;}
+            }
+        
+        
+        function init2()
+            {document.getElementById("myimg1").src=marwa[i];
+                i--;
+                if(i<=-1)
+                {i=7;}
+             } 
+</script> 
+    </head>
+<body onload="init()">
+ <!--start header-->
+     <div class="Register"> <button>Register</button> <button>Login</button></div>
+    <div class="clearfix"></div>
+    <header>
+        <div class="logo"><p><b>800-555-5555</b></p> </div>
+            
+      <div class="subscribe">
+        
+        <div class="newsletter">  
+       <h3>Northen colorado Real State,News& Events</h3>
+        <p>subscribe to our new for everything NoCo</p>
+        <form><input type="text" placeholder="&nbsp;Your name...." class="but2"> 
+        <input type="email" placeholder="&nbsp;Your Email...." class="but2"> 
+        <input type="submit" value="Go!" class="but"></form></div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+    
+     <nav><ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="#package">Packages</a></li>
+         <li><a href="#booking">Booking</a></li>
+         <li><a href="#about">About Us</a></li></ul></nav>
+    <div class="clearfix" style="background-color:black;"></div>
+ <!--end header-->
+    
+<!--start home-->
+<div class="package" >
+            <div class="clearfix"></div>
+    <div class="hope">
+    <div class="left"><button onclick="init2()"><i class="fa fa-caret-left  fa-3x"></i></button></div>
+    <div class="center"><img src="1.jpg" id="myimg1"/></div>
+    <div class="right"><button onclick="init1()"><i class="fa fa-caret-right fa-3x"></i></button></div>
+    </div>
+    <div class="clearfix"></div>
+
+  
+        <div class="clearfix"></div>
+
+    
+    <div class="places">
+    <div class="china" style="font-family: sans-serif;"><img src="./images/FirstPackage.jpg"><span><b>&nbsp;China</b><br>With a vast territory and a long history, China offers so much to see and explore. <br> Beijing - lasa -The Great Wall of China-the Li River-The Yellow Mountains </span></div>
+    <div class="india" style="font-family: sans-serif;"><img src="./images/SecondPackage.jpg"><span><b>&nbsp;India</b><br>It may very well be fair to call India "incredible," given its mind-boggling diversity of landscapes. <br>Tag mahal Bengab -</span></div>
+    <div class="america" style="font-family: sans-serif;"><img src="./images/ThirdPackage.jpg"><span><b>&nbsp;America</b><br>It may very well be fair to call america "incredible,<br>Newyork -The Yellow Mountains- </span></div>
+    <a href="#">More...</a>
+    </div>
+    <button ><a href="task css booking.html">BOOK NOW</a></button>
+    </div>
+    <div class="clearfix"></div>
+<!--end home-->
+    <hr id="package">
+    <!--start package-->
+<div class="home" >
+    <div class="paris"><div class="info1"><h4>FRANCE</h4>  <p>From</p>      <h5>1.600 $</h5>    <button>learn more</button></div></div>
+    <div class="goa"><div class="info2"><h4>GOA</h4>      <p>From</p>      <h5>1.200 $</h5>     <button>learn more</button></div></div>
+    <div class="newzland"><div class="info3"><h4>NEW ZELAND</h4>  <p>From</p>  <h5>1.300 $</h5>  <button>learn more</button></div></div>
+    <div class="clearfix"></div></div>
+<!--end package-->
+    
+        <hr id="booking">
+
+<!--start booking-->
+<div class="booking" >
+   <div class="flight">
+    <form><div class="From">   <label>From</label> <br> <input type="" placeholder="Type Departed City" value=""> </div>
+        <div class="To">       <label>To</label><br><input type="" placeholder="Type Destinated City" value=""></div> 
+        <div class="Arrival">  <label>Arrival</label><br><input type="datetime-local"  placeholder="" value="2017-07-16T15:25:33"></div> 
+        <br></b><div class="Depature"><label>Depature</label><br><input type="datetime-local"  placeholder="" value="2017-07-16T15:25:33"></div> 
+       <div class="Class">          <label>Class</label>
+<br><select><option value="Economy">Economy</option><option value="Business">Business</option><option value="First class">First class</option></select></div>
+        <div class="submit"><input type="submit" value="FIIND FLIGHT"></div>    
+  </form></div>
+    <hr>
+    
+   <div class="info">
+    <form class="f1" >
+       <div class="lab"><label >Name</label></div><input type="text"  placeholder="&nbsp;First" style="width:250px;"><input type="text"  placeholder="&nbsp;Last" style="width:250px;" >
+        <br>
+        <div class="lab"><label>Phone</label></div><input type="number"  placeholder="&nbsp;" style="width:250px;" ><input type="number"  placeholder="" style="width:250px;" >
+        <br>
+        <div class="lab"><label>Gender</label></div><select style="width:510px;"><option>&nbsp;Male</option> <option>&nbsp;Female</option></select>
+        <br>
+        <div class="lab"><label>Birth Date</label></div><input type="datetime-local"  placeholder="" value="2017-07-16T15:25:33" style="width:510px;">
+        <br></form>  
+       
+        <div class="img"><img src="./images/baloon.jpg"></div> 
+        <div class="clearfix" style="width:1px;height:1px;margin:auto;"></div>
+       
+        <form class="f2" class="clearfix"  ><br>
+        <div class="lab"><label>Adress 1</label></div><input type="text"  placeholder="Type your adress" style="width:835px;" >
+        <br>
+        <div class="lab"><label>Adress 2</label></div><input type="text" placeholder="Type another adress" style="width:835px;" >
+        <br>
+        <div class="lab"><label>State</label></div><input type="text"  placeholder="City " style="width:411px;"><input type="text"  placeholder=""style="width:411px;" >
+        <br>
+        <div class="lab"><label>Post Code</label></div><input type="text"  placeholder="" style="width:411px;" ><select style="width:411px;">&nbsp;Select country<option>Egypt</option> <option>France</option><option>England</option><option>India</option></select>
+       </form>
+    </div>
+    <div class="clearfix"></div>
+<!--end booking-->
+        <hr id="about">
+
+<!--start about us-->
+<div class="about" >
+    <h2 >OUR LOCATION</h2>
+     <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14569.108736081529!2d32.909184029395625!3d24.09174594758951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14367b5ab1a30e5f%3A0xfb109fe337cabccb!2z2KPYs9mI2KfZhg!5e0!3m2!1sar!2seg!4v1501026087840" width=100% height="350" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+   
+    
+    <h2 >Contact Information</h2>
+
+    <div class="contact">
+        <p><b>Address:</b>2 Penn Plaza, Suite 701</p><p>New York, NY 10121-0701</p>
+        <p><b>Telephone:</b>123 45678917</p>
+        <p><b>Fax:</b>12345678954</p> <p>
+        <b>Email:</b>aswancom@gmail.com</p></div>
+    <div class="form"><form>
+        <input type="username" placeholder="&nbsp;Name" class="user"><input type="email" placeholder="&nbsp;Email" class="email">
+        <br><input type="text" placeholder="&nbsp;Subject" class="message">
+        <br><textarea rows="7" cols="60" placeholder="&nbsp;Message" class="textarea"></textarea>
+        <br><input type="submit" value="SEND" class="send">
+        </form></div>
+    </div>
+   <div class="clearfix"></div>
+<!-- start about us-->
+
+<!--start footer-->
+<footer>
+   <div class="logo"><img src="images/logo.png"></div> 
+   <div class="About"><h3>About Company</h3> <p>Greenline is an Egyptian Travel Agency licensed 1804 class A, from the Egyptian Ministry of Tourism. Greenline is a member of the Egyptian Travel Agent Association (E.T.A.A). We started working in tourism since 1997.
+</p></div> 
+    
+   <div class="tags"><h3>Popular Tags</h3><dl><dt><a href="#">Aswan</a></dt><dt><a href="#">london</a></dt><dt><a href="#">paris</a></dt><dt><a href="#">Goa</a></dt><dt><a href="#">Bali</a></dt><dt><a href="#">Cairo</a></dt><dt><a href="#">cazablanca</a></dt></dl></div> 
+    
+   <div class="connect">
+       <h3>Connect With Us</h3>
+       <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x"></i></a> 
+       <a href="https://www.twitter.com/"><i class="fa fa-twitter-square fa-3x"></i></a>
+       <a href="https://www.rss.com/"><i class="fa fa-rss-square fa-3x"></i></a> 
+       <a href="https://www.mail.com/"><i class="fa fa-yc-square fa-3x"></i></a> 
+       <a href="https://www.Linkedin.com/"><i class="fa fa-Linkedin-square fa-3x"></i></a></div> 
+    </footer>
+    <!--<div class="fin"><span >Copyright &copy; 2017 MARWA Inc.</span> </div>--!>
+<!--end footer-->
+    </body>
+</html>

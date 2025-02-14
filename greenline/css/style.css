@@ -1,0 +1,109 @@
+    .Register{float:right;margin-right:40px;}
+   .Register button{background: none;border: 2px solid #FFD558;border-radius:3px ;color:#FFD558;margin:1px 10px 1px 10px;width:90px;height:27px;font-size:13px;  font-weight:bold;}
+   .Register a{padding:10px;text-decoration:none; }
+     /*start header*/
+    header{background-image: url(../images/banner/banneer.jpg);background-size: cover;height:190px ;margin: auto;}
+    header .logo{float: left;width:15%;background-image: url(../images/logo.png);height:190px;background-size: cover;}
+    header .logo img{width:25%;image-rendering: crisp-edges;}
+    header .logo p{margin:170px 0  0 54px ;font-size:13px;color:#0A3D66;}
+    header .subscribe{float:right;width:35%;color:white;margin:25px 0 0  ;}
+    header .subscribe p{margin-left:40px;}
+    header .subscribe .but{background: none;color:white;border: 2px solid white;border-radius:3px ;margin:3px 2px;width:70px;height:35px;font-weight:bolder;font-size:16px;}
+    header .subscribe .but2{border: 2px solid white;border-radius:3px ;margin:3px 2px;width:140px;height:35px;font-weight:bolder;font-size:13px;opacity:0.7;}
+     /*end header*/
+    nav{ background-color:black;color:white;text-align: center;height:50px;font-family: sans-serif;font-size:20px;margin-bottom: 10px; margin: auto; }
+    nav li{ display: inline-block;text-decoration:none;padding:10px 80px 10px 0;}
+    nav li a{ text-decoration:none;color: white;}
+    nav li a:hover{color:#FFD558;}
+    nav li a:active{color:}
+
+     /*start home*/
+.package .hope{width:1200px;margin: 20px 0;}
+.package .hope .center{float:left;width:43%;}
+.package .hope .left,.package .hope .center,.package .hope .right{float:left;width:10%;}
+.package .hope img{margin: auto;border: 2px solid #FFD558;border-radius:3px;height:450px ;width:1100px;}
+.package .hope i{color:#FFD558;}
+.package .hope button{background:none}
+.package .hope .left button{margin: auto;padding-top:200px ;}
+.package .hope .right button{margin: auto;;padding:200px  0 0 1000px;}  
+
+.package .slideshow{display: inline-block;border: 2px solid #FFD558;border-radius:3px ;}
+.package .slideshow img {height:200px ;width:500px;}
+.package .slideshow button{width:50px ;height:00px ;}
+.package .slideshow button i{color: black;}
+.package .slideshow .a,.package .slideshow .c{float:left;width:15%;}
+.package .slideshow .b{;float:left;width:70%;}
+
+.package{margin-bottom: 50px;}
+.package a{margin-left:1300px;text-decoration: none;color:#0A3D66;}
+.package .places {margin: 50px  0 50px 0;background-color:#FFD558;height:150px ;width: 100%;padding: 30px 0;}
+.package .places  span {float: left;width:40%;border: 2px solid white;border-radius:3px ;width:200px;height:130px;margin: 2px;background-color: white;opacity:0.7;}
+.package .places .china,.package .places .india,.package .places .america{float: left;width:32%;margin: 2px  ;}
+.package .places img{float: left;width:40%;border: 2px solid white;border-radius:3px ;width:200px;height:130px;margin: 2px;}
+.package button{background-color: black;color:white;border:none;width:200px;height:80px ;margin-left: 520px;}
+.package .places .china{margin-left:25px;}
+.package button a{color:white;margin: auto;}
+
+     /*end home*/
+
+     /*start package*/
+    .home{margin:50px 0 ;}
+    .home .paris{float:left;width:25%;background-image: url(../images/e9f08b3ff90b65ccdb681d903f2e3375.jpg);filter: brightness(90%);background-size: cover; text-align: center;margin:20px 30px 20px 110px;height:500px;color: white;border-radius:3px;}
+    .home .goa{float:left;width:25%;background-image: url(../images/goaaa.jpg);filter: brightness(90%);background-size: cover;text-align: center;margin:20px 30px 20px 30px;height:500px;border-radius:3px;}
+    .home .newzland{float:left;width:25%;background-image:url(../images/hole-in-the-rock-2.png);filter: brightness(90%);background-size: cover;text-align:center;margin:20px 30px 20px 30px;height:500px;color: white;}
+    .home button{background-color: white;color: pink;border: none;border-radius:3px;width:110px;height:40px;}
+    .home .paris .info1,.info2,.info3{padding-top:90px;color:white;brightness(100%); }
+    .home .paris .info1 h4,.info2 h4,.info3 h4{font-size:30px;margin-bottom: 20px;}
+    .home .paris .info1 h5,.info2 h5,.info3 h5{font-size:25px;margin-bottom: 29px;}
+    .home .paris .info1 p,.info2 p,.info3 p{font-size:20px;margin-bottom:auto;}
+     /*end package*/   
+     /*start booking*/
+.booking{}
+.booking .flight{text-items:center;margin:40px 50px 40px 180px;}
+.booking .flight .From,.booking .flight .To,.booking .flight .Arrival,.booking .flight .Depature,.booking .flight .Class,.booking .flight .submit
+{display: inline-block;margin:; }
+.booking .flight .submit input{background-color: black;color:white;border:none;}
+.booking .flight input,.booking .flight select{width:300px;height:40px ;margin:10px;}
+
+.booking hr{width:1200;}
+.booking .info{margin:50px 190px;}
+.booking .info .f1{float: left;width:65%;margin: auto; }
+.booking .info .f2{margin: auto;}
+.booking .info .img{float: left;width:35%;margin-top:10px;}
+.booking .info input,.booking .info select{height:40px ;margin:5px;}
+.booking .info  .lab{width:90px;display: inline-block;}
+.booking .info 
+     /*end booking*/   
+     /*start about us*/
+.about h2{text-align: center;margin: 30px 0;}
+.about .contact{float: left;width:50%;margin:0 0 0 90px ;}
+.about .form{float: left;width:40%;}
+.about .form input{height: 50px;margin:5px 5px;}
+.about .form .message {width:500px}
+.about .form .textarea{margin:5px 5px;}
+.about .form .user{width:245px}
+.about .form .email{width:245px}
+.about .form .send{background-color: black;color:white;border:none;width:100px;margin-left: 405px;}
+.about h2{text-align: center;margin:40px 0; }
+.about .map{width:1200px;height:320px;margin:10px 30px 0px 80px;}
+     /*end about us*/   
+     /*start footer*/
+    footer{background-color:#FFD558;height:220px; width:100%;font-family: sans-serif ;}
+    footer .logo{float: left;width:20%;}
+    footer .About{float: left;width:20%;text-align: center;margin:15px 20px 0 40px;}
+    footer .tags{float: left;width:20%;text-align: center;margin:15px 20px 0 60px;}
+    footer .tags dt a{text-decoration: none;}
+    footer .connect{float: left;width:25%;text-align: center;margin:15px 0 0 60px;}
+    footer .connect i{ color:#0A3D66;margin:25px 0 0 0px;}
+    footer  h3{color:#fff;}
+    footer .About p{color:#0A3D66;}
+    footer .tags a{color:#0A3D66;}
+    /*.fin{color:#0A3D66;;background-color:#FFD558;opacity:0.7;height:18px;padding: 7px 100px 7px 100px;text-align: center;}
+     /*end footer*/   
+     /*start framework*/ 
+    .clearfix{clear: both;}
+    body{height: 1000px;}
+    p,h1.h2,h3,h4,h5,h6,span{font-family:sans-serif ;}
+    h1,h2,h4,h5,h6{letter-spacing:3px ;}
+    header .h3{etter-spacing:0px ;}
+     /*end framework*/  

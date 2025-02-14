@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta charset="utf-8" >
+<meta name="description" content="blalalalallalallllala">
+<title>  TASK Css    </title>
+<link rel="stylesheet"href="css/style.css">
+<link rel="stylesheet"href="css/normalize.css"> 
+    <script type="text/javascript">
+                           var marwa =["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg"];
+
+           var i=0;
+             function init()
+            {
+            
+            document.getElementById("myimg1").src=marwa[i];
+                i++;
+                if(i>=8)
+                {
+                i=0;
+                }
+            } 
+        function init2()
+            {
+            
+            document.getElementById("myimg1").src=marwa[i];
+                i--;
+                if(i<=-1)
+                {
+                i=7;
+                }
+            } 
+</script> 
+    </head>
+<body >
+ <!--start header-->
+     <div class="Register"> <a href="#">Register</a><a href="#">Client Login</a></div>
+    <div class="clearfix"></div>
+    <header>
+    <div class="logo"><img src="images/logo.png"> <p>800-555-5555</p></div>
+    <div class="subscribe"><h3>Northen colorado Real State,News & Events</h3> <p>subscribe to our newsletter for everything NoCo</p><form><input type="text"      placeholder="Your name...."> <input type="email" placeholder="Your Email...."> <input type="submit" value="Go!"></form></div>
+            <div class="clearfix"></div>
+    </header>
+     <nav><ul><li><a href="task css.html">Home</a></li><li><a href="task css package.html">Packages</a></li><li><a href="task css booking.html">Booking</a></li><li><a href="task css location.html">About Us</a></li></ul></nav>
+    <div class="clearfix"></div>
+ <!--end header-->
+    
+<!--start home-->
+
+<!--end home-->
+<!--start package-->
+<div class="package">
+    <button onclick="init()"><</button>
+  <div class="slideshow">    <img src="1.jpg" id="myimg1"/></div>  
+    <button onclick="init2()">></button>
+
+    
+    <div class="places">
+    <div class="china"><img src="./images/FirstPackage.jpg"><span>ssssssssssssssssssssss<br>sssssssssssssssssssssssssss</span></div>
+    <div class="india"><img src="./images/SecondPackage.jpg"><span>ssssssssssssssssssssss<br>sssssssssssssssssssssssssssss</span></div>
+    <div class="america"><img src="./images/ThirdPackage.jpg"><span>ssssssssssssssssssssss<br>ssssssssssssssssssssssssssss</span></div>
+    <a href="#">More.</a>
+    </div>
+    <button>BOOK NOW</button>
+    </div>
+    <div class="clearfix"></div>
+<!--end package-->
+<!--start booking-->
+
+    
+<!--end booking-->
+<!--start about us-->
+
+<!-- start about us-->
+<!--start footer-->
+<footer>
+   <div class="logo"><img src="images/logo.png"></div> 
+   <div class="About"><h3>About company</h3> <p></p></div> 
+   <div class="tags"><dl><dt><a href="#">Aswan</a></dt><dt><a href="#">london</a></dt><dt><a href="#">paris</a></dt><dt><a href="#">Goa</a></dt><dt><a href="#">cazablanca</a></dt></dl></div> 
+   <div class="connect"><h3>connect with us</h3> <a href="https://www.facebook.com/"><img src="images/Facebook.png"></a> <a href="https://www.twitter.com/"><img src="images/twitter.png"> </a><a href="https://www.rss.com/"><img src="images/rss.png"></a> <a href="https://www.mail.com/"><img src="images/mail.png"></a> <a href="https://www.Linkedin.com/"><img src="images/Linkedin.png"></a></div> 
+    </footer>
+<!--end footer-->
+    </body>
+</html>
